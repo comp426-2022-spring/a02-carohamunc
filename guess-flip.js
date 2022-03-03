@@ -11,8 +11,11 @@ const args = minimist(process.argv.slice(2));
 const guess = args.call
 const real = coinFlip()
 let res = ''
-if (guess != 'tails' && guess != 'heads') {
-    console.error('incorrect input');
+if (guess == null) {
+    console.error('Error: no input')
+    console.error('Usage: node guess-flip --call=[heads|tails]')
+} else if (guess != 'tails' && guess != 'heads') {
+    console.error('Usage: node guess-flip --call=[heads|tails]')
 } else {
     if (guess == real) {
         res = 'win'
