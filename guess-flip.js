@@ -14,7 +14,7 @@ const real = coinFlip()
 let res = ''
 if (guess == null) {
     console.error('Error: no input')
-    console.error('Usage: node guess-flip --call=[heads|tails]')
+    console.log('Usage: node guess-flip --call=[heads|tails]')
 } else if (guess != 'tails' && guess != 'heads') {
     console.log('Usage: node guess-flip --call=[heads|tails]')
 } else {
