@@ -1,3 +1,4 @@
+//import functions from coin.mjs
 import { coinFlip, coinFlips, countFlips, flipACoin } from './modules/coin.mjs';
 
 import { createRequire } from 'module';
