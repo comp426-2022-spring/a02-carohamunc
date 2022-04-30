@@ -22,7 +22,6 @@ if (guess == null) {
     } else {
         res = 'lose'
     }
-    
     const ret = {call: guess, flip: real, result: res};
     console.log(ret)
 }
