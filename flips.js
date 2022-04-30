@@ -11,4 +11,5 @@ const number = args.number || 1
 const arr = coinFlips(number)
 
 console.log(arr);
+
 console.log(countFlips(arr))
