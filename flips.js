@@ -7,6 +7,7 @@ const minimist = require('minimist')
 
 const args = minimist(process.argv.slice(2));
 const number = args.number || 1
+
 const arr = coinFlips(number)
 
 console.log(arr);
