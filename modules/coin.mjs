@@ -2,6 +2,7 @@
  * This module will emulate a coin flip given various conditions as parameters as defined below
  */
 
+
 /** Simple coin flip
  * 
  * Write a function that accepts no parameters but returns either heads or tails at random.
